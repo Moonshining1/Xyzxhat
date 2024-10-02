@@ -4,9 +4,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev",
+    "deploy": "npx wrangler deploy",  // Explicitly use npx for wrangler commands
+    "dev": "npx wrangler dev",
+    "start": "npx wrangler dev",
     "build": "echo 'No build step required'"
   },
   "dependencies": {
