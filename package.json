@@ -6,7 +6,8 @@
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
-    "start": "wrangler dev"
+    "start": "wrangler dev",
+    "build": "echo 'No build required'"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.44.4",
